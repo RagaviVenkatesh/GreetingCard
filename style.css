@@ -1,0 +1,87 @@
+.body{
+    background: url(/assets/greeting-background.png);
+    background-size: cover;
+    background-color: rgba(235, 65, 53);
+    font-family: 'Germania One', cursive;
+}
+
+.inner-container{
+    position: absolute;
+    background: url(/assets/superhero-bacground.png);
+    background-size: cover;
+    margin-left: 21%;
+    margin-top: 8%;
+    width: 1017px;
+    height: 668px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-container{
+    position: absolute;
+    background: url(/assets/superhero-bacground.png);
+    background-size: cover;
+    margin-left: 21%;
+    margin-top: 8%;
+    width: 1017px;
+    height: 668px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 144px;
+    margin-top: 13%;
+    color: #067AB5;
+}
+
+h2{
+    position: absolute;
+    font-size: 48px;
+    color: #010101;
+    margin-top: 38%;
+}
+
+h3{
+    font-size: 36px;
+    color: #067AB5;
+}
+
+h4{
+    font-size: 24px;
+}
+
+.superhero{
+    width: 502px;
+    height: 282px;
+    margin-top: 4%;
+}
+
+p{
+    font-size: 36px;
+    text-align: center;
+}
+
+.button{
+    position: absolute;
+    width: 199px;
+    height: 60px;
+    margin-top: 63%;
+    background: #010101;
+    border-radius: 10px;
+    color:white;
+}
+
+.second-container{
+    visibility: hidden;
+}
+
+.button:hover {
+    transition: 1s ease-in-out;
+    background: white;
+    color: black;
+    border: solid 1px black;
+  }
+  
